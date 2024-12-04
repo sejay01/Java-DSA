@@ -17,6 +17,6 @@ public class ShuffleTheArray {
             shuffled[2 * i] = nums[i];         // Insert xi at even indices
             shuffled[2 * i + 1] = nums[i + n]; // Insert yi at odd indices
         }
-        return nums;
+        return shuffled;
     }
 }
